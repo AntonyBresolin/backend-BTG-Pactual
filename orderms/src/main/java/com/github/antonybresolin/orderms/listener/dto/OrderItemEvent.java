@@ -1,4 +1,4 @@
-package com.github.antonybresolin.orderms.entity.dto;
+package com.github.antonybresolin.orderms.listener.dto;
 
 import java.math.BigDecimal;
 
