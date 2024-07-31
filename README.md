@@ -8,6 +8,10 @@ Vá a pasta /local e digite:
 ```
   docker-compose up
 ```
+
+Execute o projeto o projeto e teste a api.
+
+
 Acesse o RabbitMQ em http://localhost:15672/ com usuário e senha guest.
 
 E utilize o Postman para fazer as requisições.
