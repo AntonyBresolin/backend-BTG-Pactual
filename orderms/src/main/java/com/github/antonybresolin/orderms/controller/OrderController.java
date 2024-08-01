@@ -4,7 +4,6 @@ import com.github.antonybresolin.orderms.controller.dto.ApiResponse;
 import com.github.antonybresolin.orderms.controller.dto.OrderResponse;
 import com.github.antonybresolin.orderms.controller.dto.PaginationResponse;
 import com.github.antonybresolin.orderms.service.OrderService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
