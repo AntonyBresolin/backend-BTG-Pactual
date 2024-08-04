@@ -2,6 +2,8 @@ package com.github.antonybresolin.orderms.factory;
 
 import com.github.antonybresolin.orderms.entity.OrderEntity;
 import com.github.antonybresolin.orderms.entity.OrderItem;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageImpl;
 
 import java.math.BigDecimal;
 import java.util.List;
@@ -19,5 +21,10 @@ public class OrderEntityFactory {
         entity.setItems(List.of(items));
 
         return entity;
+    }
+
+    public static Page<OrderEntity> buildWithPage() {
+        var entity = build();
+        return new PageImpl<>(List.of(entity));
     }
 }
